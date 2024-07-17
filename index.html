@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <span class="header_heart_icon">❤️❤️❤️</span>
+            <h1 class="header__title"> AluraGeek</h1>
+        </div>
+    </header>
+    <main class="main__container">
+        <section class="register">
+            <div class="title__register-container">
+                <h2 class="register__title">AGREGAR PRODUCTO</h2>
+            </div>
+            <div class="register__form-container">
+                <form class="register__form" data-form>
+                    <input class="register__input" id="name" name="name" data-name placeholder="Nombre..." type="text">
+                    <input class="register__input" id="price" name="price" data-price placeholder="Precio..."
+                        type="text">
+                    <input class="register__input" id="image" name="image" data-image placeholder="URL de la Imagen..."
+                        type="text">
+                    <div class="register__buttons-container">
+                        <button type="submit" class="register__button-submit" id="button">Enviar...</button>
+                        <button type="reset" class="register__button-clear" id="button">Limpiar...</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="title__products-container">
+                <h2 class="products__title">MIS PRODUCTOS</h2>
+            </div>
+            <div class="products__container" id="productsContainer">
+
+                <div class="product__card">
+                    <img class="product__image" src="/assets/gameboy.png" />
+
+                    <div class="card__title-container">
+                        <h3 class="product__title">Game Boy</h3>
+                    </div>
+                    <div class="product__footer">
+                        <spam class="product__price">$ 60,00</spam>
+                        <button class="delete-button" id="delete_product"><img class="product__trash"
+                                src="/assets/trash.png"></button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="icons-and-title">
+                <span class="footer_heart_icon">❤️❤️❤️</span>
+                <h3 class="menu-titulo-footer"> AluraGeek</h3>
+            </div>
+            <div class="footer__data">
+                <span>By. Gustavo Ayaviri</span>
+                <span>Alura Latam 2024</span>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./src/controllers/controller.js"></script>
+</body>
+
+</html>

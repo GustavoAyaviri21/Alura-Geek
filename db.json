@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "ef46",
+      "Nombre": "Darth Vader",
+      "Precio": "25.00",
+      "image": "https://www.gadoo.com.br/wp-content/uploads/2015/05/1291.jpg"
+    },
+    {
+      "id": "0ca8",
+      "Nombre": "Yoda bebe",
+      "Precio": "12.10",
+      "image": "https://www.king-jouet.com/fstrz/r/s/images.king-jouet.com/6/gu901812_6_1.jpg"
+    },
+    {
+      "id": "fca7",
+      "Nombre": "boba fet",
+      "Precio": "45.00",
+      "image": "https://th.bing.com/th/id/OIP.JTJfQ9rgpJyTaigO4jNICQAAAA?pid=ImgDet&w=204&h=260&c=7"
+    }
+  ]
+}
